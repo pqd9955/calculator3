@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="display" type="text" value="0" disabled />
+      <div class="buttons">
+        <button class="operator" onclick="handleClick('+')">+</button>
+        <button class="operator" onclick="handleClick('-')">-</button>
+        <button class="operator" onclick="handleClick('*')">&times;</button>
+        <button class="operator" onclick="handleClick('/')">&divide;</button>
+        <button onclick="handleClick('7')">7</button>
+        <button onclick="handleClick('8')">8</button>
+        <button onclick="handleClick('9')">9</button>
+        <button onclick="handleClick('4')">4</button>
+        <button onclick="handleClick('5')">5</button>
+        <button onclick="handleClick('6')">6</button>
+        <button onclick="handleClick('1')">1</button>
+        <button onclick="handleClick('2')">2</button>
+        <button onclick="handleClick('3')">3</button>
+        <button onclick="handleClick('0')">0</button>
+        <button onclick="handleClick('.')">.</button>
+        <button onclick="handleClick('=')">=</button>
+        <button onclick="clearDisplay()">C</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
